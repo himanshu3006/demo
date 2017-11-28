@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<TestLink>
+		<Parameters	uploadResultInTestLink = 'True'
+					testLinkTestProjectName = 'Gluster'
+					testLinkTestPlanName = 'Glustermaster'
+					testLinkPlatform = 'Chrome Version 58.0.3029.110 (64-bit)Ubuntu 16.04'
+					testLinkBuildName = 'test_A_gluster_status'
+					testLinkBuildNotes = ''
+					testLinkDEVKEY = 'afe849cf7503310ef738f4db0a8f4778'
+					testLinkURL = "http://192.168.0.55/testlink/lib/api/xmlrpc/v1/xmlrpc.php"
+				/>
+	</TestLink>
+</data>

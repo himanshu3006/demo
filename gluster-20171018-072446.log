@@ -1,0 +1,61 @@
+DEBUG:root:process read● glusterfs-server.service - LSB: GlusterFS server
+   Loaded: loaded (/etc/init.d/glusterfs-server; bad; vendor preset: enabled)
+   Active: active (exited) since Wed 2017-10-11 05:43:47 EDT; 1 weeks 0 days ago
+     Docs: man:systemd-sysv-generator(8)
+  Process: 1477 ExecStart=/etc/init.d/glusterfs-server start (code=exited, status=0/SUCCESS)
+    Tasks: 0
+   Memory: 0B
+      CPU: 0
+
+Warning: Journal has been rotated since unit was started. Log output is incomplete or unavailable.
+
+DEBUG:root:sudo service glusterfs-server status is Executed successfully
+INFO:root:Displaying current status of Gluster
+DEBUG:root:fio jobs started
+DEBUG:root:process output is randwrite: (g=0): rw=randwrite, bs=4K-4K/4K-4K/4K-4K, ioengine=libaio, iodepth=1
+...
+fio-2.2.10
+Starting 8 processes
+
+randwrite: (groupid=0, jobs=8): err= 0: pid=5189: Wed Oct 18 07:28:47 2017
+  write: io=1066.9MB, bw=4548.2KB/s, iops=1137, runt=240197msec
+    slat (usec): min=1, max=1816.6K, avg=7026.97, stdev=45329.61
+    clat (usec): min=0, max=27633, avg= 1.14, stdev=69.49
+     lat (usec): min=1, max=1816.6K, avg=7028.46, stdev=45330.61
+    clat percentiles (usec):
+     |  1.00th=[    0],  5.00th=[    0], 10.00th=[    0], 20.00th=[    0],
+     | 30.00th=[    0], 40.00th=[    1], 50.00th=[    1], 60.00th=[    1],
+     | 70.00th=[    1], 80.00th=[    1], 90.00th=[    1], 95.00th=[    2],
+     | 99.00th=[    5], 99.50th=[    7], 99.90th=[    9], 99.95th=[   23],
+     | 99.99th=[  141]
+    bw (KB  /s): min=    3, max=75790, per=13.36%, avg=607.51, stdev=1777.07
+    lat (usec) : 2=93.80%, 4=4.71%, 10=1.42%, 20=0.02%, 50=0.02%
+    lat (usec) : 100=0.02%, 250=0.01%, 500=0.01%, 750=0.01%
+    lat (msec) : 2=0.01%, 10=0.01%, 20=0.01%, 50=0.01%
+  cpu          : usr=0.03%, sys=0.20%, ctx=9208, majf=0, minf=87
+  IO depths    : 1=100.0%, 2=0.0%, 4=0.0%, 8=0.0%, 16=0.0%, 32=0.0%, >=64=0.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     issued    : total=r=0/w=273110/d=0, short=r=0/w=0/d=0, drop=r=0/w=0/d=0
+     latency   : target=0, window=0, percentile=100.00%, depth=1
+
+Run status group 0 (all jobs):
+  WRITE: io=1066.9MB, aggrb=4548KB/s, minb=4548KB/s, maxb=4548KB/s, mint=240197msec, maxt=240197msec
+
+Disk stats (read/write):
+  sda: ios=485/231859, merge=57/2978, ticks=329764/35755200, in_queue=36149564, util=100.00%
+
+INFO:root:Command successfully run for fio start
+DEBUG:root:process read● glusterfs-server.service - LSB: GlusterFS server
+   Loaded: loaded (/etc/init.d/glusterfs-server; bad; vendor preset: enabled)
+   Active: active (exited) since Wed 2017-10-11 05:43:47 EDT; 1 weeks 0 days ago
+     Docs: man:systemd-sysv-generator(8)
+  Process: 1477 ExecStart=/etc/init.d/glusterfs-server start (code=exited, status=0/SUCCESS)
+    Tasks: 0
+   Memory: 0B
+      CPU: 0
+
+Warning: Journal has been rotated since unit was started. Log output is incomplete or unavailable.
+
+DEBUG:root:sudo service glusterfs-server status is Executed successfully
+INFO:root:Displaying current status of Gluster
